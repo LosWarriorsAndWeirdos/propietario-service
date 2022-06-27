@@ -1,13 +1,14 @@
 package com.example.propietarioservice.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
+@Getter
+@Setter
+@With
 @Entity
 @Table(name = "propietarios")
 @Data @NoArgsConstructor @AllArgsConstructor

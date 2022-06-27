@@ -1,4 +1,4 @@
-package com.example.propietarioservice.controller;
+package com.example.propietarioservice.repository.controller;
 
 import lombok.Builder;
 import lombok.Getter;
